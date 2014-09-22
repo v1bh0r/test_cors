@@ -1,0 +1,11 @@
+<html>
+<head></head>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script>
+  $.get("http://localhost:8080/test_cors/api/social_accounts.json", function (data){
+    $("body").text(data);
+  });
+</script>
+</body>
+</html>
